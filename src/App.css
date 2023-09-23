@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(31, 29, 29);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  position: relative;
+  top: 80px;
+  width: 60%;
+  height: auto;
+  min-height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgba(56, 56, 231, 0.8);
+  margin: auto;
+}
+
+h2 {
+  font-size: 22px;
+  padding: 0px;
+  font-weight: 400;
+}
+
+.input {
+  width: 400px;
+  height: 37px;
+  padding-left: 8px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: none;
+  background-color: rgb(229, 235, 229);
+}
+
+.submit {
+  width: 80px;
+  height: 35px;
+  border: none;
+  background-color: rgb(161, 172, 151);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.product {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(113, 114, 116);
+  margin: 15px;
+  border-radius: 3px;
+  z-index: 10;
+  opacity: 0.9;
+}
+
+.btn {
+  width: 60px;
+  height: 31px;
+  border: none;
+  background-color: rgb(99, 184, 20);
+  cursor: pointer;
+  border-radius: 4px;
+}
+.btn1 {
+  width: 60px;
+  height: 31px;
+  border: none;
+  background-color: rgb(192, 28, 28);
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.input1 {
+  width: 250px;
+  height: 45px;
+  padding-left: 8px;
+  font-size: 18px;
+  margin: 10px;
+  margin-right: 20px;
+  border: none;
+}
+
+.save {
+  width: 80px;
+  height: 35px;
+  border: none;
+  background-color: rgb(208, 236, 181);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.savecard {
+  width: 400px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 2;
+  z-index: 10;
+}
+
